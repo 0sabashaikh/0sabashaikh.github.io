@@ -1,0 +1,30 @@
+body{
+    background-color: #D7DDF4;
+    color:#5956CC;
+    font-family: 'Aleo', serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:30vh;
+    text-align: center;
+}
+
+h1{
+    font-size:60px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+p{
+    font-size:30px;
+}
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 30px;
+    }
+}
